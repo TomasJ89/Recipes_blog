@@ -1,0 +1,94 @@
+/*body {*/
+/*    background-image: url("https://wallpapers.com/images/hd/lovely-food-cooking-photography-z079lna4fglazkmi.jpg");*/
+
+/*}*/
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://wallpapers.com/images/hd/lovely-food-cooking-photography-z079lna4fglazkmi.jpg");
+    opacity: 0.7; /* Set the desired opacity here */
+    z-index: -1; /* Ensures the background image stays behind the content */
+}
+
+.error {
+    color: red;
+}
+
+.recipeCard {
+    width: 200px;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        /*height: 200px;*/
+    }
+}
+
+.userCard {
+    width: 250px;
+
+    img {
+        width: 100%;
+    }
+
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.flex02 {
+    flex: 0.2;
+}
+
+.flex08 {
+    flex: 0.8;
+}
+
+.grow1 {
+    flex: 1
+}
+
+
+.smallImage {
+    height: 80px;
+    opacity: 0.3;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.imgContainer {
+    height: 500px;
+    width: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.icons {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.counterText {
+    color: #706f6f;
+    line-height: 33px;
+    font-size: 12px;
+}
+
+.bgColor {
+    background-color: rgba(213, 213, 213, 0.6);
+}
